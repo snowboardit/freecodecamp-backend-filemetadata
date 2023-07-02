@@ -1,7 +1,7 @@
 const express = require('express'),
   cors = require('cors'),
   multer = require('multer'),
-  getFileMeta = require('../getFileMeta'),
+  getFileMeta = require('./getFileMeta'),
   app = express(),
   BASE = '/api',
   DEST_PATH = './public/data/uploads/',
